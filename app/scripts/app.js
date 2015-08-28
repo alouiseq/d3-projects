@@ -15,9 +15,8 @@ define(['angular', 'controllers/main', 'controllers/about']/*deps*/, function (a
 'd3ProjectsApp.controllers.AboutCtrl',
 /*angJSDeps*/
     'ngResource',
-    'ngRoute',
-    'ngAnimate',
-    'ngTouch'
+    'ngRoute'
+
   ])
     .config(function ($routeProvider) {
       $routeProvider
